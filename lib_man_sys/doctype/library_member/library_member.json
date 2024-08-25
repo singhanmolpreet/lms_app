@@ -1,0 +1,65 @@
+{
+ "actions": [],
+ "allow_guest_to_view": 1,
+ "allow_rename": 1,
+ "autoname": "LibMem.####",
+ "creation": "2024-08-13 20:50:57.992858",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "library_member_section",
+  "full_name",
+  "mobile_number",
+  "email"
+ ],
+ "fields": [
+  {
+   "fieldname": "email",
+   "fieldtype": "Data",
+   "label": "Email"
+  },
+  {
+   "fieldname": "mobile_number",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Mobile Number"
+  },
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "library_member_section",
+   "fieldtype": "Section Break",
+   "label": "Library Member"
+  }
+ ],
+ "links": [],
+ "modified": "2024-08-18 21:38:13.374910",
+ "modified_by": "Administrator",
+ "module": "Lib Man Sys",
+ "name": "Library Member",
+ "naming_rule": "Autoincrement",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "title_field": "full_name"
+}
